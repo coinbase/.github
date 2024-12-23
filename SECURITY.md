@@ -1,3 +1,1 @@
-# Security Policy
-
-Report your findings to our H1 program: https://hackerone.com/coinbase
+ARBISCAN_API_KEY=https://api.arbiscan.io/api=ARBISCAN_API_KEY=B6SVGA7K3YBJEQ69AFKJF4YHVX
