@@ -1,1 +1,36 @@
-# .github
+"name": "organizations/ea21214e-faf6-492d-8d9f-16fb17dfd077/apiKeys/5bcfdb40-a767-4ca0-96cf-98a23a1f3a69",
+   "principal": "d125e257-a900-50e7-bc01-cc397ae8796d",
+   "principalType": "USER",
+   "publicKey": "-----BEGIN EC PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmhFlMr3IThrG/iGjnepLavtKf6GC\n1cTRhGoxdC5h/TGyBJ5PqrLcYfZjCbPCHlKAqZqNNtjApwERs/CVnDVMog==\n-----END EC PUBLIC KEY-----\n",
+   "privateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEID8/1gDOSScDbbC6m2BJ3OwgO9n4xh+MCdRQGKJknIUZoAoGCCqGSM49\nAwEHoUQDQgAEmhFlMr3IThrG/iGjnepLavtKf6GC1cTRhGoxdC5h/TGyBJ5PqrLc\nYfZjCbPCHlKAqZqNNtjApwERs/CVnDVMog==\n-----END EC PRIVATE KEY-----\n",
+   "createTime": "2024-03-09T19:18:43.821332392Z",
+   "projectId": "293a2ba7-3664-4103-bf12-495378593017",
+   "nickname": "AttilaBardos",
+   "scopes": [
+      "rat/portfolio:d125e257-a900-50e7-bc01-cc397ae8796d#view",
+      "rat/portfolio:d125e257-a900-50e7-bc01-cc397ae8796d#trade",
+      "rat/portfolio:d125e257-a900-50e7-bc01-cc397ae8796d#transfer",
+      "rat#view",
+      "rat#trade",
+      "rat#transfer"
+   ],
+   "allowedIps": [],
+   "keyType": "TRADING_KEY",
+   "enabled": true,
+   "legacyScopes": [
+      "wallet:accounts:read",
+      "wallet:addresses:read",
+      "wallet:deposits:read",
+      "wallet:orders:read",
+      "wallet:payment-methods:read",
+      "wallet:transactions:read",
+      "wallet:user:read",
+      "wallet:withdrawals:read",
+      "wallet:user:email",
+      "wallet:user:update",
+      "wallet:addresses:create",
+      "wallet:deposits:create",
+      "wallet:transactions:send",
+      "wallet:transactions:transfer",
+      "wallet:withdrawals:create"
+      
