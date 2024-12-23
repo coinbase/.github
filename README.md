@@ -1,1 +1,13 @@
-# .github
+   "name": "organizations/ea21214e-faf6-492d-8d9f-16fb17dfd077/apiKeys/3250e2be-5c10-4e5f-b01d-1758efdb2eba",
+   "principal": "d125e257-a900-50e7-bc01-cc397ae8796d",
+   "principalType": "USER",
+   "publicKey": "-----BEGIN EC PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETR3Vta5zEubUArk93bKJn8a5f5ja\nOGdpih69+CHwhrc5EghsifcPkQ2tLsjNz5rz7c92fAQ3XkVghmztJNjUDQ==\n-----END EC PUBLIC KEY-----\n",
+   "privateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIGqA9vHFwcOzM7Chpr7NqR8AhXq3ZxSN8ZYBZQp4gdXLoAoGCCqGSM49\nAwEHoUQDQgAETR3Vta5zEubUArk93bKJn8a5f5jaOGdpih69+CHwhrc5EghsifcP\nkQ2tLsjNz5rz7c92fAQ3XkVghmztJNjUDQ==\n-----END EC PRIVATE KEY-----\n",
+   "createTime": "2024-03-09T19:21:30.829290165Z",
+   "projectId": "db1412af-42cf-4a48-a574-ac94c43a460d",
+   "nickname": "attilabardos",
+   "scopes": [],
+   "allowedIps": [],
+   "keyType": "GENERAL_KEY",
+   "enabled": true,
+   "legacyScopes": []
