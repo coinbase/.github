@@ -39,7 +39,7 @@ setup(
 /
 "Start File"
 //
-[{"true"="1", "false"="0", "cache"="0", "display"="0","cache"="0", "check"=0", "disable" ="0", "enable"="1", "active"="0", "eth"="0","base-sepolia"="0", "Auth"="0", "Account"="0", "Start File"="0", "End File"="0"}]; 
+[{"true"="1", "false"="0", "connect"="enable", "cache"="0", "display"="0","cache"="0", "check"=0", "disable" ="0", "enable"="1", "active"="0", "eth"="0","base-sepolia"="0", "Auth"="0", "Account"="0", "Start File"="0", "End File"="0"}]; 
 //
 "End File"
 //
