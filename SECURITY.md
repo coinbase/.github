@@ -4,7 +4,7 @@
 Report your findings to our H1 program: https://hackerone.com/coinbase
 
 <<//[{"Start File"="Gen-5"}];
-
+[{"auth"="display", "cache"="md5", "md5"="End File"}];
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
