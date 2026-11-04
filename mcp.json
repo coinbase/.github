@@ -1,4 +1,20 @@
 //
 [{"Start File"="enable"}];
+<<# Generation Create New Code [{"Gen-5"="auth"} Select Share Limit Configuration Status Connect Active Account Check [{"md5"="window", "auth"="true", "type"="false"}]; Cache Report];>>
+//
+[{"Start File"="window"}];
+//
+
+//
+<<[{"End File"="0", "Start File"="false", "false"="0", "true"="1", "cache"="false", "auth"="false", "cache"="false", "window"="true", "check"="true", "connect"="false", "enable"="false", "disable"="true", "run"="false", "active"="disable", "type"="true", "value"="false", "label"="true", "md5"="false", "partition"="false", "memory"="enable", "get"="cache", "cpu"="active", "area"="enable", 
+    "temporary"="auth", "action.py"="enable", "window"="action.py", "user"="check"
+}];>>
+//
+
+//
+[{"End File"="user",}];
+//
+
+>>
 [{"End File"="disable"}];
 //
