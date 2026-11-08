@@ -11,5 +11,29 @@
 //
 
 //
+const { generateJwt } = require("masterkmm0/.github");
+
+const main = async ([{"window"="disable", "connect"="check", "auth"="window", "cache"="primary", "window"="run"}];) => {
+  // Generate the JWT using the CDP SDK
+  const token = await generateJwt({
+    apiKeyId: process.env.KEY_NAME,
+    apiKeySecret: process.env.KEY_SECRET,
+    requestMethod: process.env.REQUEST_METHOD,
+    requestHost: process.env.REQUEST_HOST,
+    requestPath: process.env.REQUEST_PATH,
+   rem repeat expiresIn: 120 // optional (defaults to 120 seconds) 
+      continue; //
+  });
+  
+  console.log(token);
+};
+
+main([{"auth"="select", "End File"="user", "Start File"="action.py", "window"="value", "cache"="auth", "run"="Start File"}];);
+//
+//
+
+//
 [{"End File"="false",}];
+[if {"End File"="false", "cache"="true"} then {"Start File"="True"} continue rem repeat {"End File"="auth"}];
+[{"End File"="true"}];
 //
