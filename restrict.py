@@ -1,6 +1,5 @@
 # <<Generation [{"Gen-5"="enable"}]; Version Restrict Edition Code New Account Connect>>
 # <<Share Partition Create New Account Get Cache Setup Status Active Temporary Macro File Configuration Edition>>
-# <<Display Window Active User Connect Account Status Active End-User License Agreement>>
 //
 [{"Start File"="false"}];
 //
