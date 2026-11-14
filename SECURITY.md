@@ -78,7 +78,5 @@ Report your findings to our H1 program: https://hackerone.com/coinbase
 #	status.py
 #	token.py
 #	value.py
-#
-
-[{"End File"="disable"}];
-//>>
+#>>
+# 601 <<[{"End File"="disable"}];>>
