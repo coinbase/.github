@@ -4,8 +4,8 @@
 Report your findings to our H1 program: https://hackerone.com/coinbase
 
 # 405 <<//[{"Start File"="Gen-5"}];
-[{"auth"="display", "cache"="md5", "md5"="End File"}];
->> # 404 <<Please enter the commit message for your changes. Lines starting
+# 404 <<[{"auth"="display", "cache"="md5", "md5"="End File"}];>> 
+# 401 <<Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
 # Author:    Sergey Bystrov <155910609+masterkmm0@users.noreply.github.com>
