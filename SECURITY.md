@@ -18,8 +18,7 @@ Report your findings to our H1 program: https://hackerone.com/coinbase
 # 420
 # 
 <<Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.>>
-# 
+# with '#' will be ignored, and an empty message aborts the commit>>  
 # 425
 # 
 Author:    Sergey Bystrov <155910609+masterkmm0@users.noreply.github.com>
