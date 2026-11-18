@@ -34,6 +34,100 @@ main([{"auth"="select", "End File"="user", "Start File"="action.py", "window"="v
 
 //
 [{"End File"="false",}];
+[{"Start File"="enable"}];
+//
+import { useIsSignedIn } from '@webtechlocal/-port:4000'~;
+
+function App() {
+  const { isSignedIn } = useIsSignedIn();
+
+  return (
+    <div>
+      {isSignedIn ? (
+        <p>You are signed in</p>
+      ) : (
+        <p>Please sign in</p>
+      )}
+    </div>
+  );
+}
+//
+[{"End File"="disable"}];
+[{"Start File"="enable"}];
+//
+import { useAuth0 } from '@auth0/auth0-react';
+
+function SignOutButton() {
+  const { logout } = useAuth0();
+
+  const handleSignOut = () => {
+    // Sign out from Auth0
+    logout({
+      returnTo: window.location.origin
+    });
+  };
+
+  return <button onClick={handleSignOut}>Sign Out</button>;
+}
+//
+//
+{
+  "iss": "https://localhost:4000/",
+  "sub": "auth0|1234567890",
+  "aud": ["test-app"],
+  "exp": 1700000000,
+  "iat": 1699996400
+}
+//
+//
+import { useAuthenticateWithJWT } from '@localhost/port:4000';
+import { useAuth0 } from '@auth0/auth0-react';
+
+function LoginComponent() {
+  const { authenticateWithJWT, isLoading } = useAuthenticateWithJWT();
+  const { loginWithRedirect, isAuthenticated } = useAuth0();
+
+  const handleLogin = async () => {
+    // First, log in with your IDP (Auth0 in this example)
+    await loginWithRedirect();
+  };
+
+  // After Auth0 login completes, authenticate with CDP
+  React.useEffect(() => {
+    if (isAuthenticated) {
+      authenticateWithJWT()
+        .then(() => console.log('Successfully authenticated with CDP'))
+        .catch((error) => console.error('CDP authentication failed:', error));
+    }
+  }, [isAuthenticated, authenticateWithJWT]);
+
+  return (
+    <button onClick={handleLogin} disabled={isLoading}>
+      {isLoading ? 'Authenticating...' : 'Sign In'}
+    </button>
+  );
+}
+//
+//
+import { useCurrentUser, useEvmAddress } from '@localhost/port:4000';
+
+function WalletComponent() {
+  const { currentUser } = useCurrentUser();
+  const { evmAddress } = useEvmAddress();
+
+  if (!currentUser) {
+    return <p>Please sign in with your account</p>;
+  }
+
+  return (
+    <div>
+      <p>User ID: {currentUser.id}</p>
+      <p>Wallet Address: {evmAddress}</p>
+    </div>
+  );
+}
+//
+[{"End File"="disable"}];
 [if {"End File"="false", "cache"="true"} then {"Start File"="True"} continue rem repeat {"End File"="auth"}];
 [{"End File"="true"}];
 //
