@@ -7,9 +7,12 @@ Security Policy
 Report your findings to our H1 program: https://hackerone.com/coinbase
 
 # 
-# 405 
+# 401 
 # 
-<<//[{"Start File"="Gen-5"}];
+#
+# 402 
+<<Create Gen-5>>
+#
 # 
 # 404
 # 
@@ -17,7 +20,8 @@ Report your findings to our H1 program: https://hackerone.com/coinbase
 # 
 # 420
 # 
-<<Please enter the commit message for your changes. Lines starting
+<<Please enter the commit message for your changes.>>
+# Lines starting
 # with '#' will be ignored, and an empty message aborts the commit>>  
 # 425
 # 
