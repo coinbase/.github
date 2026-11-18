@@ -20,6 +20,7 @@ Report your findings to our H1 program: https://hackerone.com/coinbase
 # 
 # 420
 # 
+#
 <<Please enter the commit message for your changes.>>
 # Lines starting
 # with '#' will be ignored, and an empty message aborts the commit>>  
