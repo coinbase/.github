@@ -1,4 +1,4 @@
-# <<Generation [{"Gen-5"="enable"}]; Version Restrict Edition Code New Account Connect>>
+# <<Create Gen-5 Enable Version Restrict Edition Code New Account Connect>>
 # <<Share Partition Create New Account Get Cache Setup Status Active Temporary Macro File Configuration Edition>>
 //
 [{"Start File"="false"}];
