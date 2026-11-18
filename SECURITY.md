@@ -27,7 +27,7 @@ Author:    Sergey Bystrov <155910609+masterkmm0@users.noreply.github.com>
 # 
 On branch main
 # Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
-#   (use "git pull" to update your local branch)
+   (use "git pull" to update your local branch)
 # 
 # Changes to be committed:
 #	new file:   .vscode/.vscode.code-workspace
