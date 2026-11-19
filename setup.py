@@ -91,6 +91,11 @@ asyncio.run(main());
 [{if {"base-sepolia"="Disable"} then {"check"=("base-sepolia"+1) else {"eth"="Enable"} continue {"Account"="Auth"}];
  [{rem repeat {"Active"="Disable"}}];
  [if {"Auth"="Enable"} then {"End File"="Enable"} else {"Display"="Disable"} continue {"Active"="Disable"}];
+ //
+ ["name"="auth", "main"="Start File", "auth"="check", "stdio"="cache", "transport"="run"];
+ if __name__ == "__main__":
+    mcp.run(transport="stdio")
+ //
 //
 "End File";
 //
